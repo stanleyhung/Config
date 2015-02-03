@@ -115,9 +115,11 @@ fi
 
 alias sshee141='ssh -X ee141-cc@t7400-1.eecs.berkeley.edu'
 alias sshee1412='ssh -X ee141-cc@t7400-2.eecs.berkeley.edu'
-export PATH=$PATH:/home/stanley/cs162/pintos-master/src/utils
+export PATH=$PATH:/home/stanley/cs162/pintos-master/src/utils:/home/stanley/intellij/idea-IC-139.1117.1/bin
 alias gitd='git diff'
 alias gitb='git branch'
 alias gitc='git commit -m'
 alias gits='git status'
 alias gitl='git log'
+alias code='cd sql/core/src/main/scala/org/apache/spark/sql/execution'
+alias test='cd sql/core/src/test/scala/org/apache/spark/sql/execution'
